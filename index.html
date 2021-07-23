@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revision HTML-5 and CSS</title>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/8db0c9f73d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header and menu  -->
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="" class="brand-logo"><img src="image/logo.png" alt="">
+                    <p class="name-color">TARGET</p>
+                </a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+                <a href="#login-sing-up"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- home page  section-->
+        <section class="container" id="home">
+            <div class="home-page">
+                <img src="image/home-image.jpg" alt="">
+                <h1 class="home-page-title">What is your next <span class="name-color">Target?</span> <br> We are ready
+                    for you.</h1>
+                <div class="let-start-button">
+                    <a href="" target="_blank">Let start<i class="fas fa-arrow-right"></i></i></a>
+                </div>
+            </div>
+
+        </section>
+        <!-- services section  -->
+        <section class="container" id="services">
+            <h1 class="section-title">Our services</h1>
+            <div class="services">
+                <div class="service">
+                    <img src="image/services/cyber-security.jpg" alt="">
+                    <h2 class="service-title">cyber security</h2>
+                    <p>Cyber security is the practice of defending computers, servers, mobile devices, electronic
+                        systems, networks, and data from malicious attacks. It's also known as information technology
+                        <a href="" target="_blank">more...</a>
+                    </p>
+                </div>
+                <div class="service">
+                    <img src="image/services/dbms.png" alt="">
+                    <h2 class="service-title">Database Management</h2>
+                    <p>A database is the system that a business uses to monitor and access its data throughout the
+                        lifecycle. It would include things like customer and employee information, sales and finances.
+                        Database management includes organizing
+                        <a href="" target="_blank">more...</a>
+                    </p>
+                </div>
+                <div class="service">
+                    <img src="image/services/Cloud-Computing.jpg" alt="">
+                    <h2 class="service-title">Cloud Computing</h2>
+                    <p>This category includes any type of IT service that is delivered over the internet or a dedicated
+                        cloud network. So a cloud platform or SaaS offering would fall into this category. So
+                        essentially,
+                        <a href="" target="_blank">more...</a>
+                    </p>
+                </div>
+                <div class="service">
+                    <img src="image/services/Microsoft Azure.png" alt="">
+                    <h2 class="service-title">Microsoft Azure</h2>
+                    <p>This is Microsoft’s own cloud platform, for public and private use (previously known as Windows
+                        Azure). The Azure platform offers a robust array of options for development, IoT, analytics,
+                        security, and more. It’s highly popular because Azure charges based on use (pay as you go)
+                        <a href="" target="_blank">more...</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- about us -->
+        <section class="container" id="about-us">
+            <h1 class="about-us">About Us</h1>
+            <div>
+                <p>Cybersecurity is the protection of internet-connected systems such as hardware, software and data
+                    from
+                    cyberthreats. The practice is used by individuals and enterprises to protect against unauthorized
+                    access
+                    to data centers and other computerized systems.
+
+                    A strong cybersecurity strategy can provide a good security posture against malicious attacks
+                    designed
+                    to access, alter, delete, destroy or extort an organization's or user's systems and sensitive data.
+                    Cybersecurity is also instrumental in preventing attacks that aim to disable or disrupt a system's
+                    or
+                    device's operations.</p>
+            </div>
+            <div class="video-player">
+                <h3>Watch us on YouTube</h3>
+                <iframe width="990" height="560" src="https://www.youtube.com/embed/Z2hoNLldiwA"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="theme-song">
+                <h3>Our theme song</h3>
+                <audio controls="controls">
+                    <source src="media/Amar-Sonar-Bangla-Ami-.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="our-partnership">
+                <h3>Our partners</h3>
+                <table class="partners">
+                    <tr>
+                        <th>Company</th>
+                        <th>Since</th>
+                    </tr>
+                    <tr>
+                        <td> <img src="image/company-logo/Google-Logo.wine.svg" alt=""></td>
+                        <td>2018</td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/company-logo/Microsoft_logo.svg.png" alt=""></td>
+                        <td>2017</td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/company-logo/Facebook-Logo.wine.svg" alt=""></td>
+                        <td>2000</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <!-- login Sign Up -->
+        <section class="container" id="login-sing-up">
+            <div class="login-signup-section-title">
+                <div class="login">
+                    <h3><a href="" target="_self">Login</a></h3>
+                </div>
+                <div class="sign-up">
+                    <h3><a href="" target="_self">Sign Up</a></h3>
+                </div>
+            </div>
+            <div class="user">
+                <i class="fas fa-user-circle"> </i>
+                <h3>Login</h3>
+            </div>
+            <div class="login-form-parent-div">
+                <form class="login-form">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" id="username">
+                    <label for="user-password">Password:</label>
+                    <input type="password" name="user-password" id="user-password">
+
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                    <button type="button" class="cancelbtn">Login</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </form>
+            </div>
+        </section>
+        <!-- footer  -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo-name">
+                    <a href="" class="brand-logo"><img src="image/logo.png" alt="">
+                        <p class="name-color">TARGET</p>
+                    </a>
+                </div>
+                <div class="social-media">
+                    <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="" target="_blank"><i class="fab fa-dribbble"></i></a>
+                    <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy 2021 TARGET</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+</html>
